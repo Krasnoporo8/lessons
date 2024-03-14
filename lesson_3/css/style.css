@@ -1,0 +1,40 @@
+@import url("reset.css");
+span {
+    color: blue;
+}
+#ukraine {
+    color: red;
+}
+#culture {
+    color: red;
+}
+.title {
+    color: palevioletred;
+}
+.text {
+    color: brown;
+}
+.link {
+    color: blueviolet;
+}
+[class*="ma"] {
+    color: greenyellow;
+}
+div.block {
+    color: rgb(97, 197, 212);
+}
+.page__text.text {
+    color: orange;
+}
+.text2,.text3 {
+    color: green;
+}
+.lesson a {
+    color: greenyellow;
+}
+.block2 .headline {
+    color: orange;
+}
+.block2 > p {
+    color: gray;
+}
