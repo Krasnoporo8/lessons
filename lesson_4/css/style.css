@@ -1,0 +1,71 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+body {
+    font-family: "ProximaNova", sans-serif;
+    font-weight: 400;
+    color: #2b2929;
+ }
+.title {
+    font-weight: 600;
+    font-size: 40px;
+}
+.text1 {
+    font-style: italic;
+   
+    }
+.content1 {
+    font-family: "Roboto", sans-serif;
+    color: rgba(177, 64, 64, 0.5);
+}
+.content2 {
+    font-size: 25px;
+    text-align: justify;
+}
+.content3 {
+    text-decoration: line-through;
+    text-decoration-color: rgba(37, 232, 37, 0.669);
+    text-decoration-style: wavy;
+
+}
+.list {
+    font-family: "Roboto Serif", serif;
+    text-align: center;
+    line-height: 3; /* 48/16 */
+}
+.text2 {
+    text-decoration: underline;
+    line-height: 1.75; /* 28/16 */
+}
+.sub-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.image {
+}
+.text3 {
+    text-shadow: -4px -6px 3px rgba(98, 123, 174, 0.5);
+    word-spacing: 10px;
+    text-decoration: line-through;
+}
+.sub-title21 {
+    font-family: "Roboto Serif", serif;
+    text-shadow: 5px 5px 10px greenyellow, -2px -3px 3px red;
+    white-space: nowrap;
+    text-decoration: line-through;
+    text-decoration-style: double;
+    text-decoration-color: red;
+}
+.text4 {
+    text-transform: capitalize;
+    letter-spacing: 6px;
+}
+.footer {
+}
