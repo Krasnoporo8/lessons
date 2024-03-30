@@ -1,0 +1,155 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.body {
+    font-family: "ProximaNova", sans-serif;
+    color: #2b2929;
+}
+.title {
+    font-family: "Roboto Serif", serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 900;
+    text-decoration: underline;
+    text-decoration-color: blue;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    text-align: center;
+    padding: 50px;
+}
+.img {
+    background-color: rgb(229, 229, 229, 0.4);
+    text-align: center;
+
+   }
+.sub-title {
+    font-family: "Roboto", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: #000;
+    margin: 0 0 59px 0;
+}
+.pic1 {
+    margin: 0 0 24px 24px;
+    width: 200px;       
+}
+.pic2 {
+    margin: 0 0 24px 24px;
+    width: 200px;       
+}
+.pic3 {
+    margin: 0 0 24px 24px;
+    width: 200px;       
+}
+.pic4 {
+    margin: 0 0 24px 24px;
+    width: 200px;       
+}
+.pic5 {
+    margin: 0 0 24px 24px;
+    width: 200px;       
+}
+.pic6 {
+    margin: 0 0 40px 24px;
+    width: 200px;       
+}
+.tagline{
+    text-align: center;
+
+}
+.sub-title2 {
+    font-size: 40px;
+    margin: 0 0 40px 0;
+    font-weight: 600;
+
+}
+.img1{
+    max-width: 1070px;
+    margin: 0 0 40px 0;
+
+} 
+.text {
+    line-height: 30px;
+    margin-left: 95px;
+}
+.lead1 {
+    max-width: 1070px;
+    padding: 0 0 30px 0;
+}
+.lead2 {
+    max-width: 1070px;
+    padding: 0 0 40px 0;
+
+}
+.sub-sub-title {
+    font-size: 20px;
+    font-weight: 600;
+    padding: 0 0 30px 0;
+    max-width: 1090px;
+
+}
+.items {
+    padding: 0 0 0 50px;
+    max-width: 1090px;
+}
+.list {
+    padding: 0 0 30px 0;
+
+}
+.lead3{
+    max-width: 1090px;
+    padding: 0 0 40px 0;
+
+}
+.sub-title3 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: 600;
+    margin: 0 0 40px 0;
+}
+.section {
+    margin: 0 auto;
+    min-width: 500px;
+}
+.text2 {
+    margin: 0, -5px;
+    font-size: 0;
+    
+}
+.block {
+    width: 300px;
+    display: inline-block;
+    margin-bottom: 50px;
+    padding-left: 5px;
+    padding-right: 5px;
+    
+}
+.block {
+    text-align: center;
+    padding: 20px;
+    vertical-align:top;
+}
+.sub1 {
+    font-size: 26px;
+    font-weight: 600;
+    padding: 0 0 20px 0;
+
+}
+.content {
+    line-height: 30px;
+    font-size: 16px;
+    
+}
+.footer {
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-shadow: 5px 5px 10px yellow, -5px -5px 10px blue
+
+}
