@@ -262,16 +262,15 @@
     height: 50px;
 }
 .line-2 {
-    /* display: block; */
     width: 100px;
     height: 50px;
 }
 .line-1:hover + .line-2,
 .line-2:hover {
-    width: 100%;
+    width: 1350px;
 }
 .line-3 {
-    width: 1350px;
+    width: 1300px;
     height: 50px;
     display: inline-block;
 }
@@ -297,7 +296,7 @@
 }
 .line-3-1:hover ~ .line-4 {
     display: inline-block;
-    width: 1350px;
+    width: 1300px;
     height: 50px;
 }
 .line-3-1:hover ~ .line-4-1,
@@ -306,7 +305,7 @@
     display: inline-block;
 }
 .line-4-1:hover {
-    width: 100%;
+    width: 1350px;
 }
 .line-5 {
     width: 20px;
