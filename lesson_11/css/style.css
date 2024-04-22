@@ -1,0 +1,755 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Exo:300,regular,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+
+body {
+    
+}
+.wrapper {
+    min-height: 100%;
+    overflow: clip;
+}
+.header {
+    background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(0,0,0,1) 100%);
+    font-family: "Idealist Sans", sans-serif;
+    color: #fff;
+    text-align: center;
+    height: 100px;
+    margin-bottom: 10px;
+    
+
+}
+.header__text {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.header__items {
+    margin-bottom: 20px;
+}
+.header__item-2d {
+    display: inline-block;
+    margin-right: 20px;
+}
+.header__item-2d:hover{
+    color: red; 
+    text-shadow: 1px 1px 3px #000, -1px -1px 3px #000;
+}
+.header__item-3d {
+    display: inline-block;
+    margin-right: 20px;
+}
+.header__item-3d:hover{
+    color: red; 
+    text-shadow: 1px 1px 3px #000, -1px -1px 3px #000;
+}
+.header__item-auto {
+    display: inline-block;
+}
+.header__item-auto:hover{
+    color: red; 
+    text-shadow: 1px 1px 3px #000, -1px -1px 3px #000;
+}
+.page span{
+    font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    margin-left: 600px;
+}
+.square {
+    font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding-top: 20px;
+    text-align: center;   
+}
+.square__item1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item1:hover .square__text1 {
+    transform: translate(20px, 20px);
+}
+.square__text1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+   
+}
+.square__item2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+      
+}
+.square__item2:hover .square__text2 {
+    transform: translate(15%, -30%);
+}
+.square__text2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item3:hover .square__text3 {
+    transform: scale(0.5);
+}
+.square__text3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item4:hover .square__text4 {
+    transform: scale(1.5);
+}
+.square__text4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item5:hover .square__text5 {
+    transform: scale(-1, -1);
+}
+.square__text5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item6 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item6:hover .square__text6 {
+    transform: rotateX(55deg);
+}
+.square__text6 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item7 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item7:hover .square__text7 {
+    transform: rotateY(55deg);
+}
+.square__text7 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item8 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item8:hover .square__text8 {
+    transform: rotate(55deg);
+}
+.square__text8 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item9 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item9:hover .square__text9 {
+    transform: rotate(-55deg);
+}
+.square__text9 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item10 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item10:hover .square__text10 {
+    transform: skew(15deg, 7deg);
+}
+.square__text10 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item11 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item11:hover .square__text11 {
+    transform: skew(-15deg, -7deg);
+}
+.square__text11 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item12 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item12:hover .square__text12 {
+    transform: matrix(2, 1, 3, 2, 1, 5);
+}
+.square__text12 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 46%;
+    transition: all 0.7s; 
+}
+.square__item13 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item13:hover .square__text13 {
+    transform: translate(10px, 15px) scale(-1) rotate(90deg) skew(-10deg, 10deg);
+}
+.square__text13 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 30%;
+    transition: all 0.7s; 
+}
+.square__item14 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item14:hover .square__text14 {
+    transform: rotate(60deg);
+    transform-origin:20px 40px;
+}
+.square__text14 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 38%;
+    transition: all 0.7s;
+}
+.square__item15 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+     
+}
+.square__item15:hover .square__text15 {
+    transform:scale(0.3);
+    transform-origin:top;
+}
+.square__text15 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 38%;
+    transition: all 0.7s; 
+}
+.square__item16 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+    perspective: 500px;
+     
+}
+.square__item16:hover .square__text16 {
+    transform:rotateX(55deg);
+}
+.square__text16 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 38%;
+    transition: all 0.7s; 
+}
+.square__item17 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+    perspective: 500px;
+    perspective-origin: left;
+     
+}
+.square__item17:hover .square__text17 {
+    transform:rotateX(55deg);
+}
+.square__text17 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 30%;
+    transition: all 0.7s; 
+}
+.square__item18 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+    perspective: 500px;
+     
+}
+.square__item18:hover .square__text18 {
+    transform:translate3d(10px, 20px, 30px);
+}
+.square__text18 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 30%;
+    transition: all 0.7s; 
+}
+.square__item19 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+    perspective: 500px;
+     
+}
+.square__item19:hover .square__text19 {
+    transform:scale3d(2, 2, 2);
+}
+.square__text19 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 38%;
+    transition: all 0.7s; 
+}
+.square__item20 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+    perspective: 500px;
+     
+}
+.square__item20:hover .square__text20 {
+    transform:rotate3d(10, 10, 10, 15deg);
+}
+.square__text20 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 30%;
+    transition: all 0.7s; 
+}
+.square__item21 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0, 0.5);
+    margin: 0 10px 20px 10px;
+    display: inline-block;
+    perspective: 500px;
+    transform-style: preserve-3d;
+     
+}
+.square__item21:hover .square__text21 {
+    transform:rotateX(55deg);
+}
+.square__text21 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 0.8);
+    padding-top: 30%;
+    transition: all 0.7s; 
+}
+.medal {
+    display: inline-block;
+    font-family: "Century Gothic", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+}
+.medal__body {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    perspective: 500px;
+}
+.medal__avers,
+.medal__revers {
+    transition: all 0.7s;
+    padding-top: 20px;
+    margin: 0 10px 20px 10px;
+    padding-top: 46%;
+
+
+}
+.medal__avers {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 0, 0);
+    backface-visibility: hidden;
+    transform: rotateY(0deg);
+    color: red;
+}
+.medal__revers {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 0, 0, 1);
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+}
+.medal__body:hover .medal__avers{
+    transform: rotateY(-180deg);
+}
+.medal__body:hover .medal__revers{
+    transform: rotateY(0deg);
+}
+.auto {
+    
+}
+.car {
+    width: 100%;
+    height: 842px;
+    background: url(../img/raster/nova_kakhovka.webp) 0 0 / 100% no-repeat;
+}
+  
+.car__body {
+    position: relative;
+    width: 700px;
+    height: 300px;
+    top: 510px;
+    left: 500px;
+}
+  
+.car__carcass {
+    position: absolute;
+    bottom: 10px;
+    left: 20px;
+    width: 300px;
+    height: 88px;
+    border-right: transparent;
+    border-radius: 10px 0 0 5px;
+    background: #000;
+    z-index: 3;
+}
+  
+.car__front {
+    position: absolute;
+    bottom: 12px;
+    left: 260px;
+    width: 220px;
+    height: 95px;
+    background: #000;
+    border-radius: 0% 100% 100% 0% / 56% 56% 18% 10%;
+    z-index: 5;
+}
+.car__top {
+    position: absolute;
+    top: 196px;
+    left: 84px;
+    width: 265px;
+    height: 80px;
+    background: #000;
+    transform: skew(40deg);
+    border: 1px solid #fff;
+    border-radius: 31% 74% 136% 3% / 69% 32% 16% 215%;
+    z-index: 2;
+}
+.car__mirror-front {
+    position: absolute;
+    top: 148px;
+    left: 259px;
+    width: 80px;
+    height: 50px;
+    border: 5px solid black;
+    border-left: transparent;
+    border-top-right-radius: 10px;
+    transform: skew(37deg);
+    background-color: #3e4a4a;
+    z-index: 5;
+}
+.car__mirror-front-element {
+    position: absolute;
+    top: 148px;
+    left: 229px;
+    width: 60px;
+    height: 50px;
+    background-color: #3e4a4a;
+    border: 5px solid black;
+    transform: skew(5deg);
+    z-index: 3;
+}
+  
+.car__rearview-mirror {
+    position: absolute;
+    top: 182px;
+    left: 320px;
+    width: 35px;
+    height: 20px;
+    background: linear-gradient(
+      50deg,
+      rgb(32, 25, 25) 56%,
+      rgb(244, 0, 0) 73%
+    );
+    border-radius: 0% 100% 0% 100% / 55% 48% 52% 45% ;
+    transform: skew(18deg, 0);
+    z-index: 6;
+}
+  
+.car__mirror-back {
+    position: absolute;
+    top: 148px;
+    left: 87px;
+    width: 123px;
+    height: 50px;
+    border: 5px solid black;
+    border-left: 12px solid black;
+    background-color: #3e4a4a;
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+    transform: skew(-14deg);
+    z-index: 3;
+}
+  
+.car__between-mirrors {
+    position: absolute;
+    top: 148px;
+    left: 198px;
+    width: 40px;
+    border-bottom: 66.5px solid black;
+    border-right: 10px solid transparent;
+    border-left: 8px solid transparent;
+    z-index: 3;
+}
+  
+.car__back-element {
+    position: absolute;
+    top: 143px;
+    left: 62px;
+    width: 36px;
+    height: 80px;
+    border-radius: 100% 0% 47% 53% / 100% 3% 97% 0% ;
+    background: #000;
+    transform: rotate(18deg);
+    z-index: 2;
+}
+.car__handle-back {
+    position: absolute;
+    top: 195px;
+    left: 102px;
+    width: 28px;
+    height: 6px;
+    background: linear-gradient(
+      45deg,
+      rgb(0, 0, 0) 56%,
+      rgb(222, 118, 118) 73%
+    );
+    border: 1px solid rgb(100, 82, 82);
+    border-radius: 0px 0px 5px 5px;
+    z-index: 6;
+}
+  
+.car__handle-front {
+    position: absolute;
+    top: 195px;
+    left: 232px;
+    width: 28px;
+    height: 6px;
+    background: linear-gradient(
+      45deg,
+      rgb(0, 0, 0) 56%,
+      rgb(222, 118, 118) 73%
+    );
+    border: 1px solid rgb(100, 82, 82);
+    border-radius: 0px 0px 5px 5px;
+    z-index: 6;
+}
+.car__wheel-back {
+    position: absolute;
+    top: 236px;
+    left: 88px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #262422;
+    z-index: 5;
+}
+  
+.car__wheel-front {
+    position: absolute;
+    top: 236px;
+    left: 318px;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: #262422;
+    z-index: 5;
+}
+  
+.car__wheel-front img,
+.car__wheel-back img {
+    width: 100%;
+    height: 100%;
+    transition: all 0.5s;
+    border: 6px solid black;
+    border-radius: 50%;
+}
+  
+.car__wheel-front:hover img,
+.car__wheel-back:hover img {
+    transform: rotate(180deg);
+}
+  
+.car__headlight-front {
+    position: absolute;
+    right: 230px;
+    bottom: 60px;
+    width: 50px;
+    height: 15px;
+    background-color: rgb(223, 220, 59);
+    border-radius: 0% 100% 0% 100% / 0% 100% 0% 100%;
+    transition: all 0.8s;
+    z-index: 5;
+  }
+.car__headlight-front:hover {
+    box-shadow: 30px 3px 30px 10px rgb(185, 165, 68);
+  }
+.car__headlight-back {
+    position: absolute;
+    left: 21px;
+    top: 202px;
+    width: 30px;
+    height: 20px;
+    background-color: rgba(178, 33, 33, 0.981);
+    border-radius: 8px;
+    transition: all 0.3s;
+    z-index: 5;
+  }
+
+.car__headlight-back:hover {
+    box-shadow: -3px 1px 1px 2px rgba(255, 0, 0, 0.333);
+    background-color: rgba(245, 64, 64, 0.981);
+  }
+.car__turn-signal {
+    position: absolute;
+    left: 21px;
+    top: 223px;
+    width: 30px;
+    height: 10px;
+    background-color: rgba(255, 132, 0, 0.981);
+    border-radius: 8px;
+    transition: all 0.3s;
+    z-index: 5;
+}
+.car__turn-signal:hover {
+    box-shadow: -3px 1px 1px 2px rgba(255, 221, 0, 0.333);
+    background-color: rgba(243, 200, 91, 0.981);
+  }
+.footer {
+}
