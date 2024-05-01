@@ -15,12 +15,12 @@
 
 @keyframes rotate {
     0% {
-        rotate: 0deg;
+        transform: rotate(0deg);
         opacity: 0;
     }
     100% {
         opacity: 1;
-        rotate: 360deg;
+        transform: rotate(360deg);
     }
 }
 @keyframes fade-in {
