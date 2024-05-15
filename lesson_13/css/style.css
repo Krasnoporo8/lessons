@@ -1,0 +1,533 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap');
+
+@import url("https://fonts.googleapis.com/css?family=Roboto:300,regular,500&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Quicksand:regular,500,600,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Exo:300,regular,700&display=swap");
+
+@import url("https://fonts.googleapis.com/css?family=Orbitron:500&display=swap");
+
+@import url("fonts.css");
+
+@import url("reset.css");
+
+.body {
+    font-family: "ProximaNova", sans-serif;
+    font-size: 16px;
+    color: #535353;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #f8f8f8;
+}
+.wrapper {
+    min-height: 100%;
+	overflow: clip;
+	display: flex;
+	flex-direction: column;
+    max-width: 1290px;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+.header {
+    font-size: 30px;
+    font-family: "Roboto", sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+.header__text {
+}
+.page {
+}
+.article {
+}
+.article__container {
+}
+.article__header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+.menu {
+    display: flex;
+    
+}
+.menu__text {
+    display: flex;
+    gap: 22px;
+    align-items:center;
+    
+}
+.assistant {
+    display: flex;
+    gap: 20px;
+    align-items:center;
+}
+
+.assistant__text {
+}
+.assistant__messengers {
+    display: flex;
+    gap: 10px;
+}
+.assistant__language a{
+    display: flex;
+    gap: 5px;
+}
+.assistant__text-language {
+    font-size: 19px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.assistant__arrow {
+}
+.article__main {
+    display: flex;
+    margin-bottom: 43px;
+}
+.article__logo {
+}
+.article__catalog {
+    margin-left: 34px;
+    padding: 11px 15px;
+    background-color: #FFBC57;
+    display: flex;
+    align-items:center;
+    gap: 10px;
+    border-radius: 8px;
+}
+.article__catalog span{
+    color: #fff;
+    font-size: 19px;
+    font-weight: 600;
+}
+.article__search {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    border-radius: 8px;
+    border: 1px solid #b1b1b1;
+    justify-content: space-between;
+    flex-basis: 240px;
+    flex-grow: 1;
+}
+.article__text-search {
+    color: #b1b1b1;
+    padding-left: 15px;
+}
+.article__icon-search {
+    padding-right: 13px;
+}
+.article__contacts {
+    display: flex;
+}
+
+.article__icon-tel {
+    margin-left: 30px;
+    align-items: center;
+}
+.article__text-contacts {
+    display: flex;
+    flex-direction:column;
+    justify-content:center;
+    gap: 5px;
+}
+.article__time {
+    color: #535353;
+    font-size: 13px;
+    font-weight: 300;
+}
+.article__text-tel {
+    font-size: 20px;
+    font-weight: 600;
+}
+.article__link-contacts {
+    display: flex;
+    margin-left: 10px;
+}
+.article__link-contacts img{
+    align-items: center;
+}
+.article__choice {
+    margin-left: 30px;
+    display: flex;
+    gap: 20px;
+}
+.article__like{
+}
+.article__basket {
+}
+.article__sub-menu {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.possibilities {
+    display: flex;
+    gap: 40px;  
+    
+}
+
+.possibilities__stock {
+    display: flex;
+    gap: 10px;  
+    align-items: center;
+}
+.possibilities__icon {
+    
+}
+.possibilities__text {
+    font-size: 19px;
+    font-weight: 600;
+    flex-basis: 177px;
+    
+}
+.rooms {
+    display: flex;
+    gap: 20px;
+    font-size: 19px;
+    font-weight: 600;
+    align-items: center;
+}
+.article__categories {
+    margin-bottom: 70px;
+    
+}
+.title {
+    font-size: 40px;
+    font-weight: 600;
+    color: #2b2929;
+    margin-bottom: 40px;
+}
+.list1 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.cards1 {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 250px;
+    height: 300px;
+    box-shadow: 1px 1px 10px rgba(126, 126, 126, 0.2);
+    position: relative; 
+}
+.cards1__link-beds {
+}
+.cards1__text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #2b2929;
+}
+.cards1__number {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 20px;
+    font-weight: 600;
+    color: #b1b1b1;
+}
+.cards1__img {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+.cards1__arrow {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+.article__goods {
+    /* display: flex; */
+}
+.article__text {
+    display: flex;
+    gap: 30px;
+}
+.article__link-goods {
+    align-items: center;
+    display: flex;
+    gap: 10px;
+    
+}
+.article__link-goods a {
+    color: #ffbc57;
+   
+}
+.article__arrow-goods {
+}
+.text2 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+
+}
+.cards2 {
+    background-color: #fff;
+    border-radius: 8px;
+    width: 300px;
+    height: 468px;
+    box-shadow: 1px 1px 10px rgba(126, 126, 126, 0.2);
+    position: relative;
+}
+.cards2__link-sparta {
+    /* position: absolute;
+    top: 20px;
+    left: 20px; */
+}
+.cards2__img {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+.cards2__text {
+}
+.cards2__size {
+    font-size: 13px;
+    font-weight: 300;
+    color: #535353;
+    position: absolute;
+    top: 260px;
+    left: 20px;
+}
+.cards2__name {
+    font-size: 19px;
+    font-weight: 600;
+    color: #2b2929;
+    line-height: 24px;
+    position: absolute;
+    top: 292px;
+    left: 20px;
+    max-width: 260px;
+}
+.cards2__availability {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 300;
+    position: absolute;
+    top: 355px;
+    left: 22px;
+}
+.cards2__sparta-availability {
+}
+.cards2__price {
+}
+.cards2__sparta-old-price {
+    font-size: 15px;
+    color: #e03d3d;
+    text-decoration:line-through;
+    position: absolute;
+    top: 398px;
+    left: 20px;
+}
+.cards2__sparta-price {
+    position: absolute;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: 600;
+    top: 420px;
+    left: 20px;
+}
+.cards2__icons {
+}
+.cards2__sparta-choice-icons {
+    position: absolute;
+    bottom: 33px;
+    left: 182px;
+}
+.cards2__sparta-basket2-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.cards2__link-argon {
+}
+.cards2__argon-availability {
+}
+.cards2__argon-old-price {
+}
+.cards2__argon-price {
+    position: absolute;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: 600;
+    top: 420px;
+    left: 20px;
+}
+.cards2__argon-choice-icons {
+    position: absolute;
+    bottom: 33px;
+    left: 182px;
+}
+.cards2__argon-basket2-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.cards2__link-prestig {
+}
+.cards2__prestig-availability {
+}
+.cards2__prestig-old-price {
+}
+.cards2__prestig-price {
+    position: absolute;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: 600;
+    top: 420px;
+    left: 20px;
+}
+.cards2__prestig-choice-icons {
+    position: absolute;
+    bottom: 33px;
+    left: 182px;
+}
+.cards2__prestig-basket2-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.cards2__link-tokio {
+}
+.cards2__tokio-availability {
+}
+.cards2__tokio-old-price {
+}
+.cards2__tokio-price {
+    position: absolute;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: 600;
+    top: 420px;
+    left: 20px;
+}
+.cards2__tokio-choice-icons {
+    position: absolute;
+    bottom: 33px;
+    left: 182px;
+}
+.cards2__tokio-basket2-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.cards2__link-largo {
+}
+.cards2__largo-availability {
+}
+.cards2__largo-old-price {
+    font-size: 15px;
+    color: #e03d3d;
+    text-decoration:line-through;
+    position: absolute;
+    top: 398px;
+    left: 20px;
+}
+.cards2__largo-price {
+    position: absolute;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: 600;
+    top: 420px;
+    left: 20px;
+}
+.cards2__largo-choice-icons {
+    position: absolute;
+    bottom: 33px;
+    left: 182px;
+}
+.cards2__largo-basket2-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.cards2__link-argentum {
+}
+.cards2__argentum-availability {
+}
+.cards2__argentum-old-price {
+    font-size: 15px;
+    color: #e03d3d;
+    text-decoration:line-through;
+    position: absolute;
+    top: 398px;
+    left: 20px;
+}
+.cards2__argentum-price {
+    position: absolute;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: 600;
+    top: 420px;
+    left: 20px;
+}
+.cards2__argentum-choice-icons {
+    position: absolute;
+    bottom: 33px;
+    left: 182px;
+}
+.cards2__argentum-basket2-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.cards2__link-bravo {
+}
+.cards2__bravo-availability {
+}
+.cards2__bravo-old-price {
+}
+.cards2__bravo-price {
+    position: absolute;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: 600;
+    top: 420px;
+    left: 20px;
+}
+.cards2__bravo-choice-icons {
+    position: absolute;
+    bottom: 33px;
+    left: 182px;
+}
+.cards2__bravo-basket2-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.cards2__link-mk-5 {
+}
+.cards2__mk-5-availability {
+}
+.cards2__mk-5-old-price {
+}
+.cards2__mk-5-price {
+    position: absolute;
+    color: #2b2929;
+    font-size: 20px;
+    font-weight: 600;
+    top: 420px;
+    left: 20px;
+}
+.cards2__mk-5-choice-icons {
+    position: absolute;
+    bottom: 33px;
+    left: 182px;
+}
+.cards2__mk-5-basket2-icons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+.footer {
+}
+
