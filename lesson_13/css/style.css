@@ -204,7 +204,8 @@
 .list1 {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    row-gap: 24px;
+    column-gap: 10px;
 }
 .cards1 {
     background-color: #fff;
@@ -262,10 +263,10 @@
 }
 .article__arrow-goods {
 }
-.text2 {
+.list2 {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 30px;
 
 }
 .cards2 {
