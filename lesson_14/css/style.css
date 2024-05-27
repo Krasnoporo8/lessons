@@ -44,12 +44,12 @@ body {
     font-weight: 600;
 }
 .page {
-    width: 738px;
-    height: 1681px;
-    margin-left: 20px;
+    margin: 0 auto;
+    max-width: 738px;
+    min-height: 1681px;
+    /* margin-left: 20px; */
 }
 .buyer {
-    height: 387px;
     background-color: #fff;
     border-radius: 8px;
     padding: 30px;
@@ -352,15 +352,19 @@ border-radius: 2px;
 }
 
 .comment {
-    height: 300px;
+    /* min-height: 300px; */
     background-color: #fff;
     border-radius: 8px;
     padding: 30px;
     margin-bottom: 5px;
-
+    display: flex;
+    flex-direction: column;
+    flex-basis: 300px;
+    flex-grow: 1;
 }
+
 .comment__text {
-    height: 150px;
+    min-height: 150px;
     padding: 20px;
     background-color: #fff;
     border:  1px solid #d1d5d5;
