@@ -73,7 +73,7 @@ body {
 }
 
 .buyer__text-info {
-    flex-basis: 324px;
+    flex: 0 1 324px;
 }
 .buyer__text-info:hover {
     box-shadow: 1px 1px 5px rgb(195, 190, 190);
