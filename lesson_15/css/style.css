@@ -452,4 +452,34 @@
         justify-content: space-between;
         gap: 40px;
     }
+    .top-header__menu a:hover {
+        text-decoration:underline 2px;
+        
+    }
+    .top-header__messengers-assistant a:nth-child(1):hover {
+        box-shadow: 0 0 4px green;
+        transition-duration: 0.3s;
+    }
+    .top-header__messengers-assistant a:nth-child(2):hover {
+        box-shadow: 0 0 4px #6F3FAA;
+        transition-duration: 0.3s;
+    }
+    .top-header__messengers-assistant a:nth-child(3):hover {
+        box-shadow: 0 0 4px #40B3E0;
+        transition-duration: 0.3s;
+    }
+    .body-header__catalog:hover {
+        box-shadow: 0 0 4px #ffbc57;
+        transition-duration: 0.3s;
+    }
+    .body-header__choice a:hover {
+        box-shadow: 0 0 4px #ffbc57;
+        transition-duration: 0.3s;
+    }
+    .button-header__possibilities a:hover {
+        text-decoration: underline 2px;
+    }
+    .button-header__rooms a:hover {
+        text-decoration: underline 2px;
+    }
 }
