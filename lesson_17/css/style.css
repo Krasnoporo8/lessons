@@ -215,7 +215,7 @@
 .dress__title{
     padding-top: 70px;
     padding-bottom: 60px;
-    font-family: "Integral CF" sans-serif;
+    font-family: "Integral CF", sans-serif;
     font-size: 48px;
     font-weight: 900;
     color: #000;
@@ -253,7 +253,7 @@
     position: absolute;
     top: 40px;
     left: 36px;
-    font-family: "Satoshi" sans-serif;
+    font-family: "Satoshi", sans-serif;
     font-size: 36px;
     font-weight: 700;
     color: #000;
